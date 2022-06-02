@@ -4519,6 +4519,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  
 }
 .card > hr {
   margin-right: 0;
@@ -4546,6 +4547,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  margin: 0rem 0rem;
 }
 
 .card-title {
@@ -7381,7 +7383,9 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
-
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11414,7 +11418,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  max-width: auto;
 }
 section.resume-section .resume-section-content {
   width: 100%;
