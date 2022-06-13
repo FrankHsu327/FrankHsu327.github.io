@@ -5,129 +5,420 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Frank Hsu's website</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Frank Hsu</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/selfie.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projectworks">Project Works</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container h-100">
+                <a class="navbar-brand" href="#page-top"></a>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li> 
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li> 
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <!-- style="background-image: url('assets/img/project_bk.jpg');
-                                                                     background-position-x: center;
-                                                                     background-position-y: top;
-                                                                     background-attachment: initial;
-                                                                     background-origin: initial;
-                                                                     background-clip: initial;
-                                                                     background-color: rgb(22, 20, 21);
-                                                                     background-size: cover;" -->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Frank
-                        <span class="text-primary">Hsu</span>
-                    </h1>
-
-                    <div class="subheading mb-3">
-                        BEng., Power Mechanical Engineering, <a href="https://nthu-en.site.nthu.edu.tw/" target="_blank">National Tsing Hua University</a>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center"> 
+            <div class="container align-items-center">
+                <!-- Masthead Avatar Image-->
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/selfie.jpg" alt="..." /> -->
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">I'm Frank Hsu</h1>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Welcome</p>
+            </div>
+        </header>
+        <!-- About Section-->
+        <section id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+               
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="three columns">
+                        <img class="profile-pic" src="assets/img/selfie.jpg">
                     </div>
-                    <div class="subheading mb-3">
-                        MEng, Electrical Engineering, <a href="https://www.unsw.edu.au/" target="_blank">University of New South Wales</a> 
+                    <div class="nine columns main-col">
+                        <h2>About Me</h2>
+                        <p>
+                            Hi, I am Frank Hsu. I am studying electrical engineering at UNSW now.
+                            <br> 
+                            <br> 
+                            I had my bachelor degree in mechanical engineering but found my passion in electrical things. My interests are circuit design and embedded system development.
+                        </p>
+                        <div class="row">
+                            <div class="columns contact-details">
+                                <h2>Contact details</h2>
+                                <p class="address">
+                                    <span>FrankHsu</span>
+                                    <br>
+                                    <span>Sydney</span>
+                                    <br>
+                                    <span>Email: frank.hsu327@gmail.com</span>
+                                    <br>
+                                </p>
+                            </div>
+                            <div class="columns download">
+                                <a class="button" href="assets/doc/Resume_FrankHsu.pdf/" target="_blank">
+                                    <i class="fa fa-download"></i>
+                                    Download Resume
+                                </a>
+                                <br>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/chenghuanx/" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/FrankHsu327?tab=repositories" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/frank-hsu-76abb31b6/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="subheading mb-5">
-                        Email: frank.hsu327@gmail.com
-                    </div>
-                    <p class="lead mb-5">I am now studying in electrical engineering in UNSW and have passion on electronics and embedded system.</p>
-                    <p> <a href="assets/img/Resume_FrankHsu.pdf" style="color:cornflowerblue" target="_blank" Download >View My Resume</a> </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/frank-hsu-76abb31b6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/FrankHsu327?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/chenghuanx/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    
+                </div>
+                <!-- About Section Button-->
+                
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 style="text-align:center; color:white ">Experience</h2>
+            <br>
+            <div class="timeline">
+                
+                <div class="container_timeline left">
+                    <div class="content_timeline">
+                      <h3>2022.05 - 2022.05</h3>
+                      <h5>Research Assitant, Academia Sinica</h5>
+                      <p>Research Assitant</p>
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            
-            <section class="resume-section" id="projectworks" style="background-color: rgb(235,238,238);">
-                <div class="row">
-                    <h2 class="mb-6" style="color:rgb(149,163,163);"> check out some of my works</h2>
+                <div class="container_timeline right">
+                    <div class="content_timeline">
+                      <h3>2021.02 - Now</h3>
+                      <h5>Student, UNSW</h5>
+                      <p>Started my master program in electrical engineering at UNSW</p>
+                    </div>
+                </div>
+                <div class="container_timeline left">
+                    <div class="content_timeline">
+                      <h3>2019.06 - 2020.10</h3>
+                      <h5>Research Assitant, Academia Sinica</h5>
+                      <p></p>
+                    </div>
+                </div>
+                <div class="container_timeline right">
+                    <div class="content_timeline">
+                      <h3>2014.09 - 2018.06</h3>
+                      <h5>Student, NTHU</h5>
+                      <p>I got my bachelor degree in mechanical engineering. <br><br>
+                        
+                        During the undergraduate period, I participated in Formula Student team and developed in circuit design and leadership.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
 
-                    <div class="col-sm-4">
-                        <div class="card h-100" style="width: 18rem;">
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/img/BMS.GIF" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">BMS Circuit</h5>
-                              <p class="card-text">
-                                This project is to develop a battery management circuit 
-                                for a 12V battery pack. <br> <br> The details can be viewed in Read More.
-                              </p>
-                              <a href="https://hackmd.io/51XmayXpSGewMbvboX04vA" class="btn btn-primary" target="_blank">Read More</a>
-                            </div>
-                        </div>
-                    </div>     
-
-                    <div class="col-sm-4">
-                        <div class="card h-100" style="width: 18rem;">
-                            <img class="card-img-top" src="assets/img/Ov7670_2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">OV7670 Camera Control</h5>
-                              <p class="card-text">
-                                Use STM32-F446RE to control memory register of the camera 
-                                and transmit image data to local PC. <br> <br> The details can be viewed in Read More.
-                              </p>
-                              <a href="https://hackmd.io/U042mLE1RPuU4Wd9EsLZFA?view" class="btn btn-primary" target="_blank">Read More</a>
+                                <h5 class="card-title">BMS Circuit</h5>
+                                <p class="card-text">This project is to develop a battery management circuit 
+                                for a 12V battery pack.
+                                </p>
+                                <a href="https://hackmd.io/51XmayXpSGewMbvboX04vA" class="btn btn-primary" target="_blank">Read</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="card h-100" style="width: 18rem;">
-                            <img class="card-img-top" src="assets/img/waferrobot2.png" alt="Card image cap">
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/img/Ov7670_2.jpg" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">Wafer Robot</h5>
-                              <p class="card-text">Control wafer robot by giving NCcode. The program contains NC code encoder, movement visulization, and motor speed interpolation. <br> <br> The details can be viewed in Read More.</p>
-                              <a href="https://hackmd.io/Dx05EYfXRTy_b6Zoa_S_6w" class="btn btn-primary" target="_blank">Read More</a>
+                                <h5 class="card-title">OV7670 Camera Control</h5>
+                                <p class="card-text">
+                                Use STM32-F446RE to control memory register of the camera 
+                                and transmit image data to local PC.
+                                </p>
+                                <a href="https://hackmd.io/U042mLE1RPuU4Wd9EsLZFA?view" class="btn btn-primary" target="_blank">Read</a>
                             </div>
                         </div>
-                    </div>                   
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/img/waferrobot2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Wafer Robot</h5>
+                                <p class="card-text">
+                                    Control wafer robot by giving NCcode. The program contains NC code encoder, movement visulization, 
+                                    and motor speed interpolation.
+                                </p>
+                                <a href="https://hackmd.io/Dx05EYfXRTy_b6Zoa_S_6w" class="btn btn-primary" target="_blank">Read</a>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            
-            
-            <!-- Interests -->
-            <!-- <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from the tech things, I enjoy most of my time being outdoors and taking photos. I love street portraits and love the vibe of walking on the street.</p>
-                    <p class="mb-0">I also do the muay thai </p>
+            </div>
+        </section>
+        
+        
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <!-- <div class="row">
+                    Footer Location
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    
+                    Footer About Text
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <hr class="m-0" /> -->
-
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
