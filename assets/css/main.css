@@ -29,6 +29,8 @@ img {
     padding: 2px 16px;
 }
 .container {
+    position: sticky;
+    bottom:1px;
     display: flex;
     align-items: center;
     justify-content: center;
