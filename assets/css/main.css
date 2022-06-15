@@ -18,16 +18,27 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
+.container_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 16px;
+}
 .container {
-    position: absolute;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:60px;
     padding: 2px 16px;
 }
-
+.row{
+    row-gap: 10%;
+    column-gap: 10%;
+}
 /* Set additional styling options for the columns */
 .column {
 float: left;
+
 }
 
 /* Set width length for the left, right and middle columns */
