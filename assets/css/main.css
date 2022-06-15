@@ -18,6 +18,10 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
+img {
+    max-width: 100%;
+    height: auto;
+}
 .container_img {
     display: flex;
     align-items: center;
