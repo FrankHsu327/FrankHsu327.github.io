@@ -35,14 +35,12 @@ img {
     height:60px;
     padding: 2px 16px;
 }
-.row{
-    row-gap: 10%;
-    column-gap: 10%;
-}
+
 /* Set additional styling options for the columns */
 .column {
 float: left;
-
+margin-left: 1.6%;
+margin-right: 1.6%;
 }
 
 /* Set width length for the left, right and middle columns */
